@@ -18,6 +18,6 @@
         "algsupport/yii2": "*"
     },
     "autoload": {
-        "psr-0": { "yii\\imperavi\\": "src/" }
+        "psr-4": { "yii\\imperavi\\": "src/" }
     }
 }
