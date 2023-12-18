@@ -1,11 +1,11 @@
 name: "Automatic Releases"
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
     tags:
       - "v*"
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   release-on-push:
